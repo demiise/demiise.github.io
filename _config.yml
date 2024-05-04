@@ -21,18 +21,19 @@ description: >- # this means to ignore newlines until "baseurl:"
   for me to document and write.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.demiise.com" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: demiise77
-#github_username:  demiise
+twitter_username: demiise77
+github_username:  demiise
+mastodon:
+  - username: demiise
+    instance: mastodon.social
 
-minima:
-  social_links:
-    - { platform: github,  user_url: "https://github.com/demiise/" }
-    - { platform: twitter, user_url: "https://x.com/demiise77" }
-    #twitter: demiise77
-    #github: demiise
-    mastodon:
-      - username: demiise
-        instance: mastodon.social
+#minima:
+#  social_links:
+#    twitter: demiise77
+#    github: demiise
+#    mastodon:
+#      - username: demiise
+#        instance: mastodon.social
 
 # Build settings
 markdown: kramdown
