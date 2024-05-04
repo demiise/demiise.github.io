@@ -26,8 +26,10 @@ url: "https://blog.demiise.com" # the base hostname & protocol for your site, e.
 
 minima:
   social_links:
-    twitter: demiise77
-    github: demiise
+    - { platform: github,  user_url: "https://github.com/demiise/" }
+    - { platform: twitter, user_url: "https://x.com/demiise77" }
+    #twitter: demiise77
+    #github: demiise
     mastodon:
       - username: demiise
         instance: mastodon.social
